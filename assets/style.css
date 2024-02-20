@@ -1,0 +1,125 @@
+/* Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/374852.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #00000028;
+    height: 7vh;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: calc(100vw - 30px)
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styles */
+#logo {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    font-size: 16px;
+}
+
+/* Anchor Styles */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Image Styles */
+/* img{
+    background-size: contain;
+    border-radius: 5%;
+} */
+/* Main Content Styles */
+main {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    /* height: 100vh; */
+
+}
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 350;
+    font-style: normal;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 350;
+    font-style: normal;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 350;
+    font-style: normal;
+}
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 350;
+    font-style: normal;
+}
+
+#dataApod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Copyright Info Styles  */
+.foot {
+    text-align: center;
+    font-size: 14px;
+}
+#apodImage{
+    
+    Width :25vw;
+    height: 25vw;
+}
+#dataApod h3{
+    background-color: #0000008c;
+    color: #fff;
+    font-size:small;
+    padding: 10px;
+
+}
